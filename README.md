@@ -1,4 +1,4 @@
-#xv6 project
+xv6 projects
 
 1. System call (100/100)
 2. CFS scheduler (100/100)
