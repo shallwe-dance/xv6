@@ -30,7 +30,7 @@ void ps(int pid); //prints out process(es)'s information
 + Key Features
   + Manages swappable pages with LRU clock algorithm
   + Considered edge cases (fork, sleep, etc.)
-+ Review : Easy to understand, hard to implement. So many macros and variables were needed to make everything work. While this project, I learned [why](https://stackoverflow.com/questions/10820340/the-need-for-parentheses-in-macros-in-c) using parentheses is important in macros
++ Review : Easy to understand, hard to implement. So many macros and variables were needed to make everything work. During this project, I learned [why](https://stackoverflow.com/questions/10820340/the-need-for-parentheses-in-macros-in-c) using parentheses is important in macros
 </br>
 
 # Assignment 5. Large File Support & Block Group File System (100/100)
