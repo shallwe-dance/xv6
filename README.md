@@ -7,7 +7,8 @@ int getnice(int pid); //obtains the nice value of a process. Return nice value. 
 int setnice(int pid, int value); //sets the nice value of a process. Return 0 on success, -1 if there is no process
 void ps(int pid); //prints out process(es)'s information
 ```
-<br>
+</br>
+
 # Assignment 2. CFS scheduler (100/100)
 + Goal : Implement CFS (Completely Fair Scheduler) in xv6
 + Key Features
