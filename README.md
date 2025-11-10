@@ -7,7 +7,7 @@ void ps(int pid); //prints out process(es)'s information
 ```
 </br>
 
-# Assignment 2. CFS scheduler (100/100)
+# Assignment 2. CFS Scheduler (100/100)
 + Goal : Implement CFS (Completely Fair Scheduler) in xv6
 + Key Features
     + Update virtual runtime, according to a weight of each process
@@ -15,7 +15,7 @@ void ps(int pid); //prints out process(es)'s information
     + Consider all edge cases (fork, sleep, busy work, etc.)
 </br>
 
-# Assignment 3. mmap() implementation (60/100)
+# Assignment 3. mmap() Implementation (60/100)
 + Goal : Implement system calls related with virtual memory (mmap, munmap, freemem)
 + Key Features
     + mmap() supports MAP_POPULATE, MAP_ANONYMOUS arguments, R/W modes
@@ -24,7 +24,7 @@ void ps(int pid); //prints out process(es)'s information
 (The code fails to manage mmap_area when fork() is called. I'm planning to patch this someday.)
 </br>
 
-# Assignment 4.page swapping (100/100)
+# Assignment 4. Page Swapping (100/100)
 </br>
 
-# Assignment 5. large file / block group file system (100/100)
+# Assignment 5. Large File Support & Block Group File System (100/100)
