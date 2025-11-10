@@ -1,5 +1,3 @@
-xv6 projects
-
 # Assignment 1. System Call(100/100)
 + Goal : Making three system calls in xv6 kernel(getnice, setnice, ps)
 ```
@@ -18,6 +16,9 @@ void ps(int pid); //prints out process(es)'s information
 </br>
 
 # Assignment 3. mmap() implementation (60/100)
++ Goal : Implement system calls related with virtual memory (mmap, munmap, freemem)
++ Key Features
+    + 
 
 
 
