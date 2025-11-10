@@ -15,7 +15,8 @@ void ps(int pid); //prints out process(es)'s information
     + Update virtual runtime, according to a weight of each process
     + Modify timer interrupt handling logic for context switches
     + Consider all edge cases (fork, sleep, busy work, etc.)
-<br>
+</br>
+
 # Assignment 3. mmap() implementation (60/100)
 
 
