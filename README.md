@@ -1,4 +1,4 @@
-# Assignment 1. System Call (100/100)
+# Project 1. System Call (100/100)
 + Goal : Making three system calls in xv6 kernel(getnice, setnice, ps)
 ```
 int getnice(int pid); //obtains the nice value of a process. Return nice value. -1 if no corresponding pid
@@ -8,7 +8,7 @@ void ps(int pid); //prints out process(es)'s information
 + Review : I hoped following projects would be as easy as this project. However......
 </br>
 
-# Assignment 2. CFS Scheduler (100/100)
+# Project 2. CFS Scheduler (100/100)
 + Goal : Implement CFS (Completely Fair Scheduler) in xv6
 + Key Features
     + Update virtual runtime, according to a weight of each process
@@ -17,7 +17,7 @@ void ps(int pid); //prints out process(es)'s information
 + Review : No LLMs, no blogs. It took quite long, but learned a lot.
 </br>
 
-# Assignment 3. mmap() Implementation (60/100)
+# Project 3. mmap() Implementation (60/100)
 + Goal : Implement system calls related with virtual memory (mmap, munmap, freemem)
 + Key Features
     + mmap() supports MAP_POPULATE, MAP_ANONYMOUS arguments, R/W modes
@@ -26,7 +26,7 @@ void ps(int pid); //prints out process(es)'s information
 + Review : The code fails to manage mmap_area when fork() is called. I'm planning to patch this someday.
 </br>
 
-# Assignment 4. Page Replacement (100/100)
+# Project 4. Page Replacement (100/100)
 + Goal : Implement page-level swapping (swap-in & swap-out)
 + Key Features
   + Manages swappable pages with LRU clock algorithm
@@ -34,7 +34,7 @@ void ps(int pid); //prints out process(es)'s information
 + Review : Easy to understand, hard to implement. So many macros and variables were needed to make everything work. During this project, I learned [why](https://stackoverflow.com/questions/10820340/the-need-for-parentheses-in-macros-in-c) using parentheses is important in macros
 </br>
 
-# 💐Assignment 5. Large File Support & Block Group File System (100/100)
+# 💐Project 5. Large File Support & Block Group File System (100/100)
 + Goal : Increase the maximum size of an xv6 file + implement block group
 + Key Features
     + Modified system to support doubly-indirect block, so the maximum file size increased from 70KB to 8.5MB
