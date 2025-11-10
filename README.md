@@ -1,6 +1,6 @@
 xv6 projects
 
-#Assignment 1. System Call(100/100)
+# Assignment 1. System Call(100/100)
 Goal : Making three system calls in xv6 kernel(getnice, setnice, ps)
 ```
 int getnice(int pid); //obtains the nice value of a process. Return nice value. -1 if no corresponding pid
