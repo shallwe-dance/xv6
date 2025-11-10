@@ -18,11 +18,13 @@ void ps(int pid); //prints out process(es)'s information
 # Assignment 3. mmap() implementation (60/100)
 + Goal : Implement system calls related with virtual memory (mmap, munmap, freemem)
 + Key Features
-    + 
+    + mmap() supports MAP_POPULATE, MAP_ANONYMOUS arguments, R/W modes
+    + mmap_area structure stores metadata of a file
+    + Page fault handler deals with access on mapping region with physical page & page table is not allocated
+(The code fails to manage mmap_area when fork() is called. I'm planning to patch this someday.)
+</br>
 
+# Assignment 4.page swapping (100/100)
+</br>
 
-
-
-3. memory map/unmap (60/100)
-4. page swapping (100/100)
-5. large file / block group file system (100/100)
+# Assignment 5. large file / block group file system (100/100)
