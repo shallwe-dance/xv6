@@ -1,10 +1,11 @@
-# Assignment 1. System Call(100/100)
+# Assignment 1. System Call (100/100)
 + Goal : Making three system calls in xv6 kernel(getnice, setnice, ps)
 ```
 int getnice(int pid); //obtains the nice value of a process. Return nice value. -1 if no corresponding pid
 int setnice(int pid, int value); //sets the nice value of a process. Return 0 on success, -1 if there is no process
 void ps(int pid); //prints out process(es)'s information
 ```
++ Review : I hoped following projects would be as easy as this project. However......
 </br>
 
 # Assignment 2. CFS Scheduler (100/100)
@@ -13,7 +14,7 @@ void ps(int pid); //prints out process(es)'s information
     + Update virtual runtime, according to a weight of each process
     + Modify timer interrupt handling logic for context switches
     + Consider all edge cases (fork, sleep, busy work, etc.)
-+ Review : 
++ Review : No LLMs, no blogs. It took quite long, but learned a lot.
 </br>
 
 # Assignment 3. mmap() Implementation (60/100)
@@ -36,4 +37,6 @@ void ps(int pid); //prints out process(es)'s information
 # Assignment 5. Large File Support & Block Group File System (100/100)
 + Goal : Increase the maximum size of an xv6 file + implement block group
 + Key Features
+    + Modified system to support doubly-indirect block, so the maximum file size increased from 70KB to 8.5MB
+    + data and inode blocks are evenly distributed across the physical disk
 + Review : My favorite xv6 project! Easy to debug, highly instructive, and fun.
