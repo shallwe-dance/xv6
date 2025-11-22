@@ -14,7 +14,7 @@ void ps(int pid); //prints out process(es)'s information
     + Update virtual runtime, according to a weight of each process
     + Modify timer interrupt handling logic for context switches
     + Consider all edge cases (fork, sleep, busy work, etc.)
-+ Review : No LLMs, no blogs. It took quite long, but learned a lot.
++ Review : No LLMs, no blogs. Only lecture notes. It took quite long, but learned a lot.
 </br>
 
 # Project 3. mmap() Implementation (60/100)
@@ -31,7 +31,7 @@ void ps(int pid); //prints out process(es)'s information
 + Key Features
   + Manages swappable pages with LRU clock algorithm
   + Considered edge cases (fork, sleep, etc.)
-+ Review : Easy to understand, hard to implement. So many macros and variables were needed to make everything work. During this project, I learned [why](https://stackoverflow.com/questions/10820340/the-need-for-parentheses-in-macros-in-c) using parentheses is important in macros
++ Review : Easy to understand, hard to implement. So many macros and variables were needed to make everything work. During this project, I learned [why](https://stackoverflow.com/questions/10820340/the-need-for-parentheses-in-macros-in-c) using parentheses is important in C macros
 </br>
 
 # 💐Project 5. Large File Support & Block Group File System (100/100)
